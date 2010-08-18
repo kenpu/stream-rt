@@ -1,0 +1,12 @@
+STREAM RT (REAL-TIME or RUNTIME)
+
+1. Introduction
+
+- The image repo is a directory containing tar'ed image files.
+- The images are streamed from one process to another over sockets.
+    
+2. Processes
+None of the processes require unbounded memory.
+
+- source:
+  
